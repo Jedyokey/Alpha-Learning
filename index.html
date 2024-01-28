@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test - Alpha Learning</title>
+
+    <!--Bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <!--Header section-->
+    <div id="header" class="container-fluid bg-dark fixed-top">
+        <nav class="navbar bg-dark navbar-dark navbar-expand-xl">
+            <div class="container mx-auto main-nav">
+                    <a href="index.html" class="navbar-brand main-nav-left"> 
+                        <h2>Alpha<span class="text-success">Learning</span></h2>
+                    </a>
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                        <span class="navbar-toggler-icon"></span> 
+                    </button>
+
+                <div class="collapse navbar-collapse main-nav-right" id="menu">
+                    <ul class="navbar-nav nav-pills mx-auto alpha-nav">
+                        <li class="nav-item" >
+                            <a href="index.html" class="nav-link text-success">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="courses.html" class="nav-link">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="trainers.html" class="nav-link">Trainers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="events.html" class="nav-link">Events</a>
+                        </li>
+                        <li class="nav-item dropdown alpha-nav-dropdown" data-bs-theme="dark">
+                            <button type="button" class="btn btn-dark dropdown-toggle career-path" data-bs-toggle="dropdown">Find your New Career</button>
+                            <ul class="dropdown-menu career-path-menu">
+                                <li><a href="online-degrees.html" class="dropdown-item alpha-nav-dropdown">Online Degrees</a></li>
+                                <li><a href="testimonials.html" class="dropdown-item alpha-nav-dropdown">Testimonials</a></li>
+                                <li><a href="uni-cert.html" class="dropdown-item alpha-nav-dropdown">University Certificates</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn btn-success d-flex get-started" data-bs-toggle="modal" data-bs-target="#get-started">Get Started</a>
+                </div>
+            </div>
+        </nav>
+    </div><!--Header end-->
+
+    <!--Get Started Modal-->
+    <div class="modal fade" id="get-started">
+        <div class="modal-dialog modal-md modal-dialog-scrollable">
+            <div class="modal-content join-now1">
+                <!--body-->
+                <div class="modal-body join-now">
+                    <div style="text-align: right;"><button class="btn-close" data-bs-dismiss="modal"></button></div>
+                    <div class="join-ASAP">
+                        <p style="font-size: 27px; margin-bottom: 4px;">Sign Up</p>
+                        <div style="width: 80%; margin: auto;"><p>Learn on your own time from amazing trainers and top universities.</p></div>
+                    </div>
+
+                    <div class="join-now-form">
+                        <form action="#">
+                            <label for="fullname">FULL NAME</label><br>
+                            <input type="text" name="fullname" placeholder="Your full name"><br>
+
+                            <label for="email">EMAIL</label><br>
+                            <input type="email" name="email" placeholder="name@email.com"><br>
+
+                            <label for="password">PASSWORD</label><br>
+                            <input type="password" placeholder="Create password"><br>
+
+                            <label for="password">CONFIRM PASSWORD</label><br>
+                            <input type="password" placeholder="Confirm password"><br>
+
+                            <input type="submit" value="Join for Free">
+                        </form>
+                    </div>
+
+                    <p style="text-align: center;">or</p>
+
+                    <div class="login-options">
+                        <a href="#" class="login-option-1">
+                            <div class="login-google"> 
+                                <div class="login-left">
+                                    <img src="images/icons8-google.png" alt="" width="30" height="26">
+                                </div> 
+                                <div class="login-right">Continue with Google</div>
+                            </div>
+                        </a>
+
+                        <a href="#" class="login-option-1">
+                            <div class="login-facebook"> 
+                                <div class="login-left-1">
+                                    <img src="images/icons8-facebook.png" alt="" width="35" height="35">
+                                </div> 
+                                <div class="login-right-1">Continue with Facebook</div>
+                            </div>
+                        </a>
+                    </div><!--login-options end-->
+                    <p class="login">Already on Alpha<span class="text-success">Learning</span>?<a href="#"> Log in</a></p>
+                </div><!--body ends--> 
+            </div>
+        </div>
+    </div><!--Modal ends-->
+
+    <!--Alpha Background Image-->
+    <div class="alpha-bg-img">
+        <div class="container alpha-box">
+            <h1>Learning Today, Leading Tomorrow</h1>
+            <p>Learning is not attained by chance, it must be sought with dedication and diligence</p>
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#get-started">Get Started</a>
+        </div>
+    </div> <!--Alpha Background Image end-->
+
+    <!--Section 1-->
+    <section class="container section-1">
+        <div class="section1-flex">
+            <div class="section1-left">
+                <h1 class="display-5 section1-header">Get a head start on our free courses today</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto sapiente laudantium eveniet quos fugiat architecto maiores impedit natus reiciendis nobis, consectetur facere laboriosam pariatur. Voluptas alias reprehenderit facere omnis error!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, aliquam totam. Ullam, saepe omnis voluptates fugit alias veritatis dolor neque natus soluta, eaque dolores excepturi! Possimus repellendus quibusdam repellat delectus.</p>
+                <p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus reprehenderit assumenda dolorum qui pariatur nam laborum aperiam velit debitis explicabo.</i></p>
+            </div>
+
+            <div class="section1-right">
+                <img src="images/class3.jpg" alt="Class" height="100%" width="100%">
+            </div>
+        </div>
+    </section> <!--Section 1 end-->
+
+    <!--Section 2-->
+    <section class="container-fluid mb-5 p-3 second-section">
+        <div class="row text-center w-100 mx-auto pt-4 pb-4 section2-flex">
+            <div class="col section2-column">
+                <h1 class="display-5 section2-title" style="margin-top: 0;">1500</h1><br>
+                <span class="achievement">Students</span>
+            </div>
+            <div class="col section2-column section2-column2">
+                <h1 class="display-5 section2-title">80</h1><br>
+                <span class="achievement achievement1">Courses</span>
+            </div>
+            <div class="col section2-column">
+                <h1 class="display-5 section2-title">52</h1><br>
+                <span class="achievement">Events</span>
+            </div>
+            <div class="col section2-column">
+                <h1 class="display-5 section2-title">25</h1><br>
+                <span class="achievement">Trainers</span>
+            </div>
+        </div>
+    </section> <!--Section 2 end-->
+
+    <!--Section 3-->
+    <section class="container why-us">
+        <div class="row section3-flex">
+            <div class="col-4 why-us-col">
+                <h2 style="padding: 10px 15px;">Why Choose Alpha Learning?</h2>
+                <p style="padding: 10px 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, amet voluptate. Eaque perferendis, eveniet temporibus, at neque tempora doloremque delectus voluptatem laboriosam possimus quaerat fugit provident? Quasi sunt minus accusamus? Lorem, ipsum dolor sit amet consectetur adipisicing elit. A, fuga. Sit eum temporibus harum, odio quaerat earum beatae ipsa obcaecati tempore</p>
+                <div style="text-align: center; padding-bottom: 20px;">
+                    <a href="#" class="btn btn-outline-light" style="border-radius: 19px; padding-bottom: -30px;">
+                        <span>Learn More</span><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="15" viewBox="0 0 24 24" width="24"><g><path d="M0,0h24v24H0V0z" fill="none"/></g><g><polygon points="6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12"/></g></svg>
+                    </a>
+                </div> 
+            </div>
+
+            <div class="col why_us why-us-col-2"> 
+                <div style="text-align: center;">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="64" viewBox="0 0 24 24" width="54"><path d="M0 0h24v24H0z" fill="none"/><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM14 13v4h-4v-4H7l5-5 5 5h-3z"/></svg>
+                </div><br>
+                <h2>Sit amet consectetur</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ratione cupiditate ut exercitationem quisquam. Error minus doloribus</p>
+            </div>
+
+            <div class="col why_us section3-column">
+                <div style="text-align: center;">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="64" viewBox="0 0 24 24" width="54"><path d="M0 0h24v24H0z" fill="none"/><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+                </div><br>
+                <h2>Sit amet consectetur</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ratione cupiditate ut exercitationem quisquam. Error minus doloribus</p>
+            </div>
+
+            <div class="col why_us section3-column">
+                <div style="text-align: center;">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="64" viewBox="0 0 24 24" width="54"><path d="M0 0h24v24H0z" fill="none"/><path d="M14 2H4c-1.11 0-2 .9-2 2v10h2V4h10V2zm4 4H8c-1.11 0-2 .9-2 2v10h2V8h10V6zm2 4h-8c-1.11 0-2 .9-2 2v8c0 1.1.89 2 2 2h8c1.1 0 2-.9 2-2v-8c0-1.1-.9-2-2-2z"/></svg>
+                </div><br>                    
+                <h2>Sit amet consectetur</h2>     
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ratione cupiditate ut exercitationem quisquam. Error minus doloribus</p> 
+            </div>
+        </div>
+    </section> <!--Section 3 end-->
+
+    <!--Popular Courses (Section 4)-->
+    <section class="container">
+        <div class="course">
+            <h2>COURSES</h2>
+            <p>POPULAR COURSES</p>
+        </div>
+
+        <div class="courses">
+            <div class="row courses-flex">
+                <div class="col course-content">
+                    <div class="card justify-content-center">
+                        <a href="courses.html">
+                            <img src="images/group4.jpg" class="course-img" alt="Class-Group">
+                        </a>
+                        <div class="card-body">
+                                <div class="row course-item mb-3">
+                                    <div class="col"><p class="course-item-1" style="width: 150px;">Web Development</p></div>
+                                    <div class="col" style="text-align: right;"><p style="font-weight: bold; font-size: 20px;">$170</p></div>
+                                </div>
+                                <div class="course-content-main">
+                                    <h2><a href="courses.html">Website Design</a></h2>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos libero aliquam quas expedita</p>
+                                </div>
+                        </div>
+                        <!--Card Footer-->
+                        <div class="card-footer">
+                            <div class="row footer-content">
+                                <div class="col footer-img">
+                                    <img src="images/trainer1.jpg" alt="Trainer" class="img-fluid rounded-circle trainer-img"> <span style="padding-top: 10px;">Antonio</span>
+                                </div>
+                                <div class="col footer-img2" style="text-align: right;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 5.9c1.16 0 2.1.94 2.1 2.1s-.94 2.1-2.1 2.1S9.9 9.16 9.9 8s.94-2.1 2.1-2.1m0 9c2.97 0 6.1 1.46 6.1 2.1v1.1H5.9V17c0-.64 3.13-2.1 6.1-2.1M12 4C9.79 4 8 5.79 8 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 9c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z"/></svg> <span style="padding-right: 10px;">50</span>
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg> <span>65</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--End of course content-->
+
+                <div class="col course-content">
+                    <div class="card justify-content-center">
+                        <a href="courses.html">
+                            <img src="images/seo-course.jpeg" class="course-img" alt="Class-Group">
+                        </a>
+                        <div class="card-body">
+                            <div class="row course-item mb-3">
+                                <div class="col"><p class="course-item-1" style="width: 90px;">Marketing</p></div>
+                                <div class="col" style="text-align: right;"><p style="font-weight: bold; font-size: 20px;">$250</p></div>
+                            </div>
+                            <div class="course-content-main">
+                                <h2><a href="courses.html">Search Engine Optimization</a></h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos libero aliquam quas expedita</p>
+                            </div>
+                        </div>
+                        <!--Card Footer-->
+                        <div class="card-footer">
+                            <div class="row footer-content">
+                                <div class="col footer-img">
+                                    <img src="images/class1.jpg" alt="Trainer" width="60" height="70" class="img-fluid rounded-circle trainer-img"> <span style="padding-top: 10px;">Clara</span>
+                                </div>
+                                <div class="col footer-img2" style="text-align: right;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 5.9c1.16 0 2.1.94 2.1 2.1s-.94 2.1-2.1 2.1S9.9 9.16 9.9 8s.94-2.1 2.1-2.1m0 9c2.97 0 6.1 1.46 6.1 2.1v1.1H5.9V17c0-.64 3.13-2.1 6.1-2.1M12 4C9.79 4 8 5.79 8 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 9c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z"/></svg> <span style="padding-right: 10px;">37</span>
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg> <span>45</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--End of course content-->
+
+                <div class="col course-content">
+                    <div class="card justify-content-center">
+                        <a href="courses.html">
+                            <img src="images/event1.jpeg" class="course-img" alt="Class-Group">
+                        </a>
+                        <div class="card-body">
+                            <div class="row course-item mb-3">
+                                <div class="col"><p class="course-item-1" style="width: 58px;">Music</p></div>
+                                <div class="col" style="text-align: right;"><p style="font-weight: bold; font-size: 20px;">$190</p></div>
+                            </div>
+                            <div class="course-content-main">
+                                <h2><a href="courses.html">Learn Music</a></h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos libero aliquam quas expedita</p>
+                            </div>
+                        </div>
+                        <!--Card Footer-->
+                        <div class="card-footer">
+                            <div class="row footer-content">
+                                <div class="col footer-img">
+                                    <img src="images/trainer2.jpg" alt="Trainer" width="60" height="70" class="img-fluid rounded-circle trainer-img"> <span style="padding-top: 10px;">Brandon</span>
+                                </div>
+                                <div class="col footer-img2" style="text-align: right;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 5.9c1.16 0 2.1.94 2.1 2.1s-.94 2.1-2.1 2.1S9.9 9.16 9.9 8s.94-2.1 2.1-2.1m0 9c2.97 0 6.1 1.46 6.1 2.1v1.1H5.9V17c0-.64 3.13-2.1 6.1-2.1M12 4C9.79 4 8 5.79 8 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 9c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z"/></svg> <span style="padding-right: 10px;">55</span>
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg> <span>75</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--End of course content-->
+            </div><!--row ends here-->
+        </div>
+    </section><!--Popular Courses (Section 4)-->
+
+    <!--Our Trainers-->
+    <section class="container trainers-info">    
+        <h2 class="trainer-header">Meet Our Excellent Trainers</h2>
+        <div class="row trainer-flex">
+            <!--Trainer Details-->
+            <div class="col trainer-col">
+                <div class="card justify-content-center">
+                    <img src="images/trainer1.jpg" class="trainer-id" alt="Antonio-Jeffery">
+                    <div class="card-body trainer-details">
+                        <h3>Antonio Jeffery</h3>
+                        <p><i>Web Development</i></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit placeat consequatur aliquid</p>
+                        <div class="trainer-socials">
+                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="30" viewBox="0 0 50 50">
+                                    <path d="M 6.9199219 6 L 21.136719 26.726562 L 6.2285156 44 L 9.40625 44 L 22.544922 28.777344 L 32.986328 44 L 43 44 L 28.123047 22.3125 L 42.203125 6 L 39.027344 6 L 26.716797 20.261719 L 16.933594 6 L 6.9199219 6 z"></path>
+                                    </svg></a>
+
+                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="30" viewBox="0 0 50 50">
+                                    <path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"></path>
+                                    </svg></a>
+                                
+                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="30" viewBox="0 0 30 30">
+                                    <path d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"></path>
+                                </svg></a>
+
+                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="23" height="30" viewBox="0 0 50 50">
+                                    <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
+                                </svg></a>
+                        </div><!--End of Trainer Socials-->
+                    </div>
+                </div>
+            </div><!--End of Trainer Details-->
+
+            <div class="col trainer-col"><!--Trainer Details-->
+                <div class="card justify-content-center">
+                    <img src="images/class1.jpg" class="trainer-id" alt="Clara-Daniels">
+                    <div class="card-body trainer-details">
+                        <h3>Clara Daniels</h3>
+                        <p><i>Search Engine Optimization</i></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit placeat consequatur aliquid</p>
+                        <div class="trainer-socials">
+                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="30" viewBox="0 0 50 50">
+                                    <path d="M 6.9199219 6 L 21.136719 26.726562 L 6.2285156 44 L 9.40625 44 L 22.544922 28.777344 L 32.986328 44 L 43 44 L 28.123047 22.3125 L 42.203125 6 L 39.027344 6 L 26.716797 20.261719 L 16.933594 6 L 6.9199219 6 z"></path>
+                                    </svg></a>
+
+                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="30" viewBox="0 0 50 50">
+                                    <path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"></path>
+                                    </svg></a>
+                                
+                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="30" viewBox="0 0 30 30">
+                                    <path d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"></path>
+                                </svg></a>
+
+                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="23" height="30" viewBox="0 0 50 50">
+                                    <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
+                                </svg></a>
+                        </div><!--End of Trainer Socials-->
+                    </div>
+                </div>
+            </div><!--Trainer Details end here-->
+
+            <div class="col trainer-col3"><!--Trainer Details-->
+                <div class="card justify-content-center trainer-test">
+                    <img src="images/trainer2.jpg" class="trainer-id" alt="Brandon-Christopher">
+                    <div class="card-body trainer-details">
+                        <h3>Brandon Christopher</h3>
+                        <p><i>UI/UX</i></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit placeat consequatur aliquid</p>
+                        <div class="trainer-socials">
+                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="30" viewBox="0 0 50 50">
+                                    <path d="M 6.9199219 6 L 21.136719 26.726562 L 6.2285156 44 L 9.40625 44 L 22.544922 28.777344 L 32.986328 44 L 43 44 L 28.123047 22.3125 L 42.203125 6 L 39.027344 6 L 26.716797 20.261719 L 16.933594 6 L 6.9199219 6 z"></path>
+                                    </svg></a>
+
+                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="30" viewBox="0 0 50 50">
+                                    <path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"></path>
+                                    </svg></a>
+                                
+                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="30" viewBox="0 0 30 30">
+                                    <path d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"></path>
+                                </svg></a>
+
+                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="23" height="30" viewBox="0 0 50 50">
+                                    <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
+                                </svg></a>
+                        </div><!--End of Trainer Socials-->
+                    </div>
+                </div>
+            </div><!--Trainer Details end here-->
+        </div>
+    </section><!--Our Trainer ends here-->
+
+    <!--Footer Section-->
+    <footer class="bg-light footer">
+        <div class="container footer-box">
+
+            <div class="row footer-flex">
+                <div class="col-3 footer-flex-item">
+                    <h3 class="footer-col-1">Alpha Learning</h3>
+                    <p class="footer-address">
+                        Diamond Estate <br>
+                        Blk 289, Flt 7 <br>
+                        Ikeja, Lagos <br>
+                        Nigeria <br><br>
+                        <strong>Phone:</strong> +234 813 532 8970 <br>
+                        <strong>Email:</strong> alphalearninghub@gmail.com
+                    </p>
+                </div>
+
+                <div class="col-2 footer-links footer-flex-item">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Terms of service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-3 footer-col-3 footer-links footer-flex-item">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">UI/UX</a></li>
+                        <li><a href="#">Mobile App Development</a></li>
+                        <li><a href="#">Product Management</a></li>
+                        <li><a href="#">Marketing</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-4 footer-newsletter footer-flex-item">
+                    <h3>Join Our Newsletter</h3>
+                    <p>Alpha Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <form action="#" method="post">
+                        <input type="email" name="email"><input type="submit" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row footer-flex">
+                    <div class="col footer-flex-item-5">
+                        <div class="copyright">
+                            <p style=" margin-bottom: 5px;">&copy; Copyright <strong>Alpha<span class="text-success">Learning</span></strong>. All Rights Reserved</p>
+                            <p>Designed by <span style="color: #44946f;">Jedy++</span></p>
+                        </div>
+                    </div>
+    
+                    <div class="col">
+                        <div class="social-links footer-flex-item-5">
+                            <a href="#">
+                                <span class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 48 48">
+                                    <path fill="#039be5" d="M24 5A19 19 0 1 0 24 43A19 19 0 1 0 24 5Z"></path><path fill="#fff" d="M26.572,29.036h4.917l0.772-4.995h-5.69v-2.73c0-2.075,0.678-3.915,2.619-3.915h3.119v-4.359c-0.548-0.074-1.707-0.236-3.897-0.236c-4.573,0-7.254,2.415-7.254,7.917v3.323h-4.701v4.995h4.701v13.729C22.089,42.905,23.032,43,24,43c0.875,0,1.729-0.08,2.572-0.194V29.036z"></path>
+                                    </svg></span>
+                            </a>
+
+                            <a href="#">
+                                <span class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 48 48">
+                                    <radialGradient id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fd5"></stop><stop offset=".328" stop-color="#ff543f"></stop><stop offset=".348" stop-color="#fc5245"></stop><stop offset=".504" stop-color="#e64771"></stop><stop offset=".643" stop-color="#d53e91"></stop><stop offset=".761" stop-color="#cc39a4"></stop><stop offset=".841" stop-color="#c837ab"></stop></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path><radialGradient id="yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4168c9"></stop><stop offset=".999" stop-color="#4168c9" stop-opacity="0"></stop></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path><path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"></path><circle cx="31.5" cy="16.5" r="1.5" fill="#fff"></circle><path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"></path>
+                                    </svg></span>
+                            </a>
+
+                            <a href="#">
+                                <span class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 48 48">
+                                    <path fill="#0078d4" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5	V37z"></path><path d="M30,37V26.901c0-1.689-0.819-2.698-2.192-2.698c-0.815,0-1.414,0.459-1.779,1.364	c-0.017,0.064-0.041,0.325-0.031,1.114L26,37h-7V18h7v1.061C27.022,18.356,28.275,18,29.738,18c4.547,0,7.261,3.093,7.261,8.274	L37,37H30z M11,37V18h3.457C12.454,18,11,16.528,11,14.499C11,12.472,12.478,11,14.514,11c2.012,0,3.445,1.431,3.486,3.479	C18,16.523,16.521,18,14.485,18H18v19H11z" opacity=".05"></path><path d="M30.5,36.5v-9.599c0-1.973-1.031-3.198-2.692-3.198c-1.295,0-1.935,0.912-2.243,1.677	c-0.082,0.199-0.071,0.989-0.067,1.326L25.5,36.5h-6v-18h6v1.638c0.795-0.823,2.075-1.638,4.238-1.638	c4.233,0,6.761,2.906,6.761,7.774L36.5,36.5H30.5z M11.5,36.5v-18h6v18H11.5z M14.457,17.5c-1.713,0-2.957-1.262-2.957-3.001	c0-1.738,1.268-2.999,3.014-2.999c1.724,0,2.951,1.229,2.986,2.989c0,1.749-1.268,3.011-3.015,3.011H14.457z" opacity=".07"></path><path fill="#fff" d="M12,19h5v17h-5V19z M14.485,17h-0.028C12.965,17,12,15.888,12,14.499C12,13.08,12.995,12,14.514,12	c1.521,0,2.458,1.08,2.486,2.499C17,15.887,16.035,17,14.485,17z M36,36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698	c-1.501,0-2.313,1.012-2.707,1.99C24.957,25.543,25,26.511,25,27v9h-5V19h5v2.616C25.721,20.5,26.85,19,29.738,19	c3.578,0,6.261,2.25,6.261,7.274L36,36L36,36z"></path>
+                                    </svg></span>
+                            </a>
+
+                            <a href="#">
+                                <span class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35" viewBox="0 0 50 50">
+                                    <path d="M 11 4 C 7.134 4 4 7.134 4 11 L 4 39 C 4 42.866 7.134 46 11 46 L 39 46 C 42.866 46 46 42.866 46 39 L 46 11 C 46 7.134 42.866 4 39 4 L 11 4 z M 13.085938 13 L 21.023438 13 L 26.660156 21.009766 L 33.5 13 L 36 13 L 27.789062 22.613281 L 37.914062 37 L 29.978516 37 L 23.4375 27.707031 L 15.5 37 L 13 37 L 22.308594 26.103516 L 13.085938 13 z M 16.914062 15 L 31.021484 35 L 34.085938 35 L 19.978516 15 L 16.914062 15 z"></path>
+                                    </svg></span>
+                            </a>
+                            
+                            <a href="#">
+                                <span class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 48 48">
+                                    <path fill="#212121" fill-rule="evenodd" d="M10.904,6h26.191C39.804,6,42,8.196,42,10.904v26.191 C42,39.804,39.804,42,37.096,42H10.904C8.196,42,6,39.804,6,37.096V10.904C6,8.196,8.196,6,10.904,6z" clip-rule="evenodd"></path><path fill="#ec407a" fill-rule="evenodd" d="M29.208,20.607c1.576,1.126,3.507,1.788,5.592,1.788v-4.011 c-0.395,0-0.788-0.041-1.174-0.123v3.157c-2.085,0-4.015-0.663-5.592-1.788v8.184c0,4.094-3.321,7.413-7.417,7.413 c-1.528,0-2.949-0.462-4.129-1.254c1.347,1.376,3.225,2.23,5.303,2.23c4.096,0,7.417-3.319,7.417-7.413L29.208,20.607L29.208,20.607 z M30.657,16.561c-0.805-0.879-1.334-2.016-1.449-3.273v-0.516h-1.113C28.375,14.369,29.331,15.734,30.657,16.561L30.657,16.561z M19.079,30.832c-0.45-0.59-0.693-1.311-0.692-2.053c0-1.873,1.519-3.391,3.393-3.391c0.349,0,0.696,0.053,1.029,0.159v-4.1 c-0.389-0.053-0.781-0.076-1.174-0.068v3.191c-0.333-0.106-0.68-0.159-1.03-0.159c-1.874,0-3.393,1.518-3.393,3.391 C17.213,29.127,17.972,30.274,19.079,30.832z" clip-rule="evenodd"></path><path fill="#fff" fill-rule="evenodd" d="M28.034,19.63c1.576,1.126,3.507,1.788,5.592,1.788v-3.157 c-1.164-0.248-2.194-0.856-2.969-1.701c-1.326-0.827-2.281-2.191-2.561-3.788h-2.923v16.018c-0.007,1.867-1.523,3.379-3.393,3.379 c-1.102,0-2.081-0.525-2.701-1.338c-1.107-0.558-1.866-1.705-1.866-3.029c0-1.873,1.519-3.391,3.393-3.391 c0.359,0,0.705,0.056,1.03,0.159V21.38c-4.024,0.083-7.26,3.369-7.26,7.411c0,2.018,0.806,3.847,2.114,5.183 c1.18,0.792,2.601,1.254,4.129,1.254c4.096,0,7.417-3.319,7.417-7.413L28.034,19.63L28.034,19.63z" clip-rule="evenodd"></path><path fill="#81d4fa" fill-rule="evenodd" d="M33.626,18.262v-0.854c-1.05,0.002-2.078-0.292-2.969-0.848 C31.445,17.423,32.483,18.018,33.626,18.262z M28.095,12.772c-0.027-0.153-0.047-0.306-0.061-0.461v-0.516h-4.036v16.019 c-0.006,1.867-1.523,3.379-3.393,3.379c-0.549,0-1.067-0.13-1.526-0.362c0.62,0.813,1.599,1.338,2.701,1.338 c1.87,0,3.386-1.512,3.393-3.379V12.772H28.095z M21.635,21.38v-0.909c-0.337-0.046-0.677-0.069-1.018-0.069 c-4.097,0-7.417,3.319-7.417,7.413c0,2.567,1.305,4.829,3.288,6.159c-1.308-1.336-2.114-3.165-2.114-5.183 C14.374,24.749,17.611,21.463,21.635,21.38z" clip-rule="evenodd"></path>
+                                    </svg></span>
+                            </a>
+                        </div> <!--End of Social links-->
+                    </div>
+                </div> <!--Row ends here!--> 
+            </div>
+        </div>
+    </footer><!--Footer end-->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
