@@ -214,11 +214,6 @@ body {
 }
 
 @media screen and (max-width: 576px) {
-    .alpha-bg-img {
-        height: 100vh;
-    }
-}
-@media screen and (max-width: 576px) {
     .alpha-box h1 {
         width: 100%;
         margin: auto;
