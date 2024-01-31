@@ -192,7 +192,7 @@ body {
     background-image: url("../images/student3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
