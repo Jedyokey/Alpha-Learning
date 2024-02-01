@@ -189,10 +189,10 @@ body {
 
 /* Alpha Background Image */
 .alpha-bg-img {
-    background-image: url("../images/student3.jpg");
+    background-image: linear-gradient(rgba(184, 144, 11, 0.432), rgba(0, 0, 0, 0.8)), url("../images/student3.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+    background-size: 100% 100%;
+    min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -213,11 +213,6 @@ body {
     width: 65%;
 }
 
-@media screen and (max-width: 576px) {
-    .alpha-bg-img {
-        height: 100vh;
-    }
-}
 @media screen and (max-width: 576px) {
     .alpha-box h1 {
         width: 100%;
