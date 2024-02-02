@@ -198,6 +198,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
+    background-attachment: fixed; 
 }
 .alpha-bg-img .container {
     font-size: 1.5625rem;
