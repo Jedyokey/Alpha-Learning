@@ -227,6 +227,9 @@ body {
     }
 }
 @media screen and (max-width: 576px) {
+    .alpha-bg-img {
+        background-attachment: scroll;
+    }
     .alpha-box h1 {
         width: 100%;
         margin: auto;
