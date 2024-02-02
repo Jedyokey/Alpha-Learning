@@ -198,7 +198,6 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    
 }
 .alpha-bg-img .container {
     font-size: 1.5625rem;
@@ -212,7 +211,20 @@ body {
 .alpha-box p {
     width: 65%;
 }
-
+@supports (-webkit-touch-callout: none) {
+    .alpha-bg-img {
+        background-image: linear-gradient(rgba(11, 28, 184, 0.432), rgba(0, 0, 0, 0.8)), url("../images/in-demand-2.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;          
+        min-height: 100vh;
+        display: flex;      
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;    
+        width: 100%;                   
+        background-attachment: scroll; 
+    }
+}
 @media screen and (max-width: 576px) {
     .alpha-box h1 {
         width: 100%;
