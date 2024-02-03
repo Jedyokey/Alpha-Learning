@@ -6,6 +6,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* nav section */
@@ -495,6 +496,9 @@ body {
     .course-content-main a {
         font-size: 1.4375rem;
     }
+    .course-content-main p {
+        font-size: 1.125rem;
+    }
 }
 @media screen and (max-width: 350px) {
     .course p {
@@ -503,6 +507,9 @@ body {
     }
     .course-img {
         height: 200px;
+    }
+    .course-content-main p {
+        font-size: 1.125rem;
     }
     .footer-img {
         flex: 20%;
@@ -565,10 +572,16 @@ body {
     .trainer-test {
         width: 100%;
     }
+    .trainer-details p:last-of-type {
+        font-size: 1.125rem;
+    }
 }
 @media screen and (max-width: 300px) {
     .trainer-id {
         height: 200px;
+    }
+    .trainer-details p:last-of-type {
+        font-size: 1.125rem;
     }
 }
 
